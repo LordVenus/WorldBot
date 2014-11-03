@@ -32,7 +32,7 @@ return chat;
 var loadChat = function (cb) {
 if (!cb) cb = function () {
 };
-$.get("https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json", function (json) {
+$.get("https://raw.githubusercontent.com/LordVenus/WorldBot/master/lang-pt.json", function (json) {
 var link = basicBot.chatLink;
 if (json !== null && typeof json !== "undefined") {
 langIndex = json;
@@ -146,7 +146,7 @@ m += parts[i];
 }
 return m;
 };
-var botCreator = "Matthew aka. Yemasthui";
+var botCreator = "LordVenus";
 var botCreatorIDs = [];
 var basicBot = {
 version: "2.1.2",
@@ -155,14 +155,14 @@ name: "WorldBot",
 loggedInID: null,
 scriptLink: "https://raw.githubusercontent.com/LordVenus/WorldBot/ebcb4e94c8b0070ad84f3dc8058398930bdd8570/WorldBot.js",
 cmdLink: "https://github.com/Yemasthui/basicBot/blob/master/commands.md",
-chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+chatLink: "https://raw.githubusercontent.com/LordVenus/WorldBot/master/lang-pt.json",
 chat: null,
 loadChat: loadChat,
 retrieveSettings: retrieveSettings,
 settings: {
 botName: "WorldBot",
 language: "portuguese",
-chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+chatLink: "https://raw.githubusercontent.com/LordVenus/WorldBot/master/lang-pt.json",
 maximumAfk: 60,
 afkRemoval: true,
 maximumDc: 60,
