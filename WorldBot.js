@@ -151,9 +151,9 @@ var botCreatorIDs = [];
 var basicBot = {
 version: "2.1.2",
 status: false,
-name: "basicBot",
+name: "WorldBot",
 loggedInID: null,
-scriptLink: "LINK HOSPEDAGEM",
+scriptLink: "https://raw.githubusercontent.com/LordVenus/WorldBot/ebcb4e94c8b0070ad84f3dc8058398930bdd8570/WorldBot.js",
 cmdLink: "https://github.com/Yemasthui/basicBot/blob/master/commands.md",
 chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
 chat: null,
