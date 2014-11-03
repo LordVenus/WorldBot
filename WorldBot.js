@@ -1138,7 +1138,7 @@ var emojibutton = $(".icon-emoji-on");
 if (emojibutton.length > 0) {
 emojibutton[0].click();
 }
-loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
+loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: "WorldBot", version: basicBot.version})));
 },
 commands: {
 executable: function (minRank, chat) {
